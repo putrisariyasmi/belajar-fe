@@ -7,25 +7,25 @@ export default function App(props){
       name: "Sampoo Botol Besar",
       qty: 1,
       store: "Sardo Swalayan",
-      price: "Rp25.000"
+      price: "25.000"
     },
     {
       name: "Indomie Goreng",
       qty: 20,
       store: "Giant",
-      price: "Rp5.000"
+      price: "5.000"
     },
     {
       name: "Coca-Cola",
       qty: 2,
       store: "Giant",
-      price: "Rp15.000"
+      price: "15.000"
     },
     {
       name: "Sabun Mandi",
       qty: 4,
       store: "Sardo Swalayan",
-      price: "Rp35.000"
+      price: "35.000"
     },
   ]);
   return (
@@ -43,7 +43,7 @@ export default function App(props){
               {" pcs"} {" | "}
               {obj?.store}
               {" | "}
-              {obj?.price}
+              {"Rp"}{obj?.price}
             </ListGroup.Item>
           ))}
         </ListGroup>
